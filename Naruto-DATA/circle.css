@@ -1,0 +1,42 @@
+.circle1,
+.circle2,
+.circle3,
+.circle4,
+.circle5,
+.circle6 {
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.3)
+  );
+  height: 10rem;
+  width: 10rem;
+  position: absolute;
+  border-radius: 50%;
+}
+.circle1 {
+  top: 5%;
+  right: 15%;
+  z-index: -1;
+}
+.circle2 {
+  bottom: 5%;
+  left: 15%;
+}
+.circle3 {
+  top: 50%;
+  right: 10%;
+}
+.circle4 {
+  top: 50%;
+  right: 50%;
+}
+.circle5 {
+  top: 20%;
+  left: 10%;
+}
+.circle6 {
+  bottom: 3%;
+  right: 30%;
+}
