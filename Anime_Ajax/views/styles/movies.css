@@ -1,0 +1,100 @@
+
+
+
+
+#MoviesPage{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.moviesbox{
+    width: 95%;
+    height: 95%;
+}
+
+.moviestitle{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.moviestitle h1{
+    font-size: 2rem;
+    color: var(--secondary-color);
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+.moviesinfo{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+
+.moviesbtn{
+    width: 5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.moviesbtn button{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    transition: 0.3s all ease-out;
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.moviesbtn button:hover{
+    background-color: var(--nav-color);
+}
+
+.moviesslider{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.movieCard{
+    margin: 10px;
+    height: 90%;
+    width: 200px;
+    flex-shrink: 0;
+}
+
+.movieCard img{
+    width: 100%;
+    height: 100%;
+}
+
+
+@media (max-width:600px){
+    .moviestitle h1{
+        font-size: 1.5rem;
+    }
+
+    .moviesbtn{
+        width: 10%;
+    }
+
+    .moviesbtn button{
+        width: 30px;
+        height: 30px;
+    }
+
+    .moviesslider{
+        width: 80%;
+    }
+}
