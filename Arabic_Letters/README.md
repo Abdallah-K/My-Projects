@@ -1,10 +1,11 @@
 # Recogntion of offline Arabic Handwritten Characters using Neural Networks
 
 This is a AI project made for having an introduction about the deep learing and what convolution neural network is. We train a model that recognize the arabic letters and gives us the prediction of that letter.
----
+
 ---
 # Project
 ![](pro2.png)
+> Languages: Python-Pyqt5-Tensorflow
 > Remark
 * Enter the folder name (Test)
 * click show for displaying the letters
